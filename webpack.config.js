@@ -24,14 +24,7 @@ module.exports = () => ({
   },
   plugins: [
     new ModuleFederationPlugin({
-      shared: {
-        swr: {
-          singleton: true
-        },
-        "swr/infinite": {
-          singleton: true
-        }
-      },
+      shared: ["swr", "swr/inifinite"],
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./public/index.html"),
