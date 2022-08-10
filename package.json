@@ -2,8 +2,7 @@
   "name": "demi",
   "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "postinstall": "npx vue-demi-switch 2 vue/dist/vue.runtime.esm.js",
+  "scripts": { 
     "start": "webpack-cli serve",
     "build": "webpack-cli build"
   },
