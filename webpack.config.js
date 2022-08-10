@@ -25,12 +25,8 @@ module.exports = () => ({
   plugins: [
     new ModuleFederationPlugin({
       shared: {
-        swr: {
-          singleton: true
-        },
-        "swr/infinite": {
-          singleton: true
-        }
+        "vue-demi": {},
+        vue: {},
       },
     }),
     new HtmlWebpackPlugin({

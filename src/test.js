@@ -1,7 +1,5 @@
-import useSWR from "swr"
-import useSWRInfinite from "swr/infinite"
+import { defineComponent } from "vue-demi"
 
-console.group('test.js')
-console.log("useSWR in test.js", useSWR)
-console.log("useSWRInfinite in test.js", useSWRInfinite)
+console.group("test.js")
+console.log("defineComponent in test.js", defineComponent)
 console.groupEnd("test.js")
