@@ -25,7 +25,6 @@ module.exports = () => ({
   plugins: [
     new ModuleFederationPlugin({
       shared: {
-        "vue-demi": {},
         vue: {},
       },
     }),

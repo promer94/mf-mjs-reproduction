@@ -1,5 +1,5 @@
-import { defineComponent } from 'vue-demi'
+import vue from "vue"
 
 console.group("test.mjs")
-console.log("defineComponent in test.mjs", defineComponent)
+console.log("vue in test.mjs", vue)
 console.groupEnd("test.mjs")
